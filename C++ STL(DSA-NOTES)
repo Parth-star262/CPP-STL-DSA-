@@ -1,2 +1,14 @@
 Pair:
+it is a template class provided by the C++ Standard Library (<utility> header). It is used to store two heterogeneous (or same-type) values as a single unit.
 
+
+Containers:
+
+1) Vectors: 
+
+i)push_back()   ii) emplace_back()
+
+Difference btw push_back() and emplace_back() are:
+a] Final space used = same.
+b] But emplace_back() may avoid temporary memory use, making it faster and more efficient.
+c] Especially useful for complex objects like classes with constructors.
